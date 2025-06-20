@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/dolphin/Qt/5.15.19/gcc_64/include",
+                "/home/dolphin/Qt/5.15.19/gcc_64/include/**"
+            ],
+            "defines": [
+                "QT_DEPRECATED_WARNINGS",
+                "QT_DISABLE_DEPRECATED_BEFORE=0x050F00"  // Qt 5.15.0
+            ],
+            "compilerPath": "/usr/bin/g++",  // 确保指向正确的GCC版本
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
